@@ -208,7 +208,7 @@ a.start-shopping:hover {
   border-radius: 12px;
   color: #fff;
   font-size: 14px;
-  letter-spacing: .41px;
+  letter-spacing: 0.41px;
 }
 #user-registeration .login {
   letter-spacing: 2px;
@@ -216,6 +216,24 @@ a.start-shopping:hover {
 }
 #user-registeration .mt {
   margin-top: -3rem;
+}
+footer.register span a {
+  font-size: 12px;
+}
+label#name,
+label#email,
+label#password {
+  font-size: 12px !important;
+  opacity: 0.5;
+}
+#user-registeration form input {
+  border: 0px !important;
+  background: rgba(19, 172, 119, 0.09) !important;
+  border-radius: 12px;
+}
+#user-registeration form input::placeholder {
+  font-family: Futura-medium;
+  opacity: 0.5;
 }
 /* User Registeration Page CSS End */
 
@@ -246,7 +264,16 @@ footer.home {
 /* Footer CSS Ends */
 
 /* media Queries */
-@media (max-width: 1400px) {
+@media (min-width: 992px) {
+  input {
+    width: 516px;
+    height: 60px;
+    background: rgba(19, 172, 119, 0.09) !important;
+    border-radius: 12px;
+  }
+  #user-registeration form input::placeholder {
+    padding: 2rem;
+  }
 }
 @media (max-width: 1200px) {
   .hero-text {
@@ -310,7 +337,13 @@ footer.home {
   }
   #user-registeration .register-arrow img {
     margin-top: 30px;
-  
+  }
+  footer.register {
+    display: none;
+  }
+  .register-arrow a img {
+    margin-left: -10px;
+  }
 }
 @media (max-width: 320px) {
   .delivery-circle {
@@ -323,13 +356,20 @@ footer.home {
   .start-shopping {
     font-size: 8px;
   }
-  #user-registeration .holla, .select-a-profile {
+  #user-registeration .holla,
+  .select-a-profile {
     font-size: 18px;
   }
   #user-registeration .profile {
     width: 100px;
     height: 100px;
-    
   }
-}
+  .small {
+    font-size: 12px !important;
+  }
+  .register-arrow a img {
+    width: 15%;
+    margin: 15px;
+    margin-left: -10px;
+  }
 }
