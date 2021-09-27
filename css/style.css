@@ -226,7 +226,7 @@ label#password {
   font-size: 12px !important;
   opacity: 0.5;
 }
-#user-registeration form input {
+#user-registeration form input:nth-child(3) {
   border: 0px !important;
   background: rgba(19, 172, 119, 0.09) !important;
   border-radius: 12px;
@@ -234,6 +234,20 @@ label#password {
 #user-registeration form input::placeholder {
   font-family: Futura-medium;
   opacity: 0.5;
+}
+#user-registeration form .pw input {
+  border: 0;
+  background: rgba(19, 172, 119, 0.09) !important;
+}
+#user-registeration form .pw input:focus {
+  outline: none !important;
+}
+#user-registeration form .pw {
+  background: rgba(19, 172, 119, 0.09) !important;
+  border-radius: 12px;
+}
+#user-registeration form .pw:focus {
+  outline: 2px solid black;
 }
 /* User Registeration Page CSS End */
 
@@ -268,8 +282,6 @@ footer.home {
   input {
     width: 516px;
     height: 60px;
-    background: rgba(19, 172, 119, 0.09) !important;
-    border-radius: 12px;
   }
   #user-registeration form input::placeholder {
     padding: 2rem;
