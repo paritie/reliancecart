@@ -187,7 +187,7 @@ a.start-shopping:hover {
   opacity: 0.9;
 }
 #user-registeration .register-arrow img {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 #user-registeration .holla {
   font-size: 40px;
@@ -336,7 +336,7 @@ footer.home {
     font-size: 24px;
   }
   #user-registeration .register-arrow img {
-    margin-top: 30px;
+    margin-top: 50px;
   }
   footer.register {
     display: none;
