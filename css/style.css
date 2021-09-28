@@ -242,8 +242,11 @@ label#password {
 #user-registeration form img.visibility-on {
   right: 0;
   /* top: 0%; */
-  margin-top: 8px;
-  opacity: .5;
+  /* margin-top: 8px; */
+  /* opacity: .5; */
+}
+#user-registeration .sign-up-logos img {
+  width: 40%;
 }
 /* User Registeration Page CSS End */
 
@@ -265,9 +268,11 @@ label#password {
   }
 /* Business Page CSS Ends */
 
-/* Health Corners Page CSS starts */
-
-/* Health Corner Page CSS Ends */
+/* become a partner Page CSS starts */
+  .fs-36 {
+    font-size: 36px;
+  }
+/* become a partner Page CSS Ends */
 
 /* Footer CSS Starts */
 footer.home {
@@ -313,7 +318,7 @@ footer.home {
 }
 @media (max-width: 976px) {
   #user-registeration form img.visibility-on {
-    margin-top: -3px;
+    /* margin-top: -3px; */
   }
 }
 
@@ -354,11 +359,17 @@ footer.home {
     margin-left: -10px;
   }
   #user-registeration form img.visibility-on {
-    width: 20% !important;
-    margin-top: 6px;
+    width: 15% !important;
+    /* margin-top: 6px; */
   }
   #business .hero-text {
     margin-bottom: 10rem;
+  }
+  #user-registeration .sign-up-logos img {
+    width: 20%;
+  }
+  .fs-36 {
+    font-size: 20px;
   }
 }
 @media (max-width: 375px) {
@@ -400,6 +411,6 @@ footer.home {
 @media (max-width: 280px) {
   #user-registeration form img.visibility-on {
     width: 20% !important;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
 }

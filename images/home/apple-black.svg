@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_7213" data-name="Group 7213" transform="translate(-280.5 -931.5)">
+    <rect id="Rectangle_10741" data-name="Rectangle 10741" width="70" height="70" rx="12" transform="translate(280.5 931.5)" fill="#e9f8f3"/>
+    <g id="apple" transform="translate(303.125 952.398)">
+      <g id="Group_6910" data-name="Group 6910" transform="translate(11.473)">
+        <g id="Group_6909" data-name="Group 6909">
+          <path id="Path_24922" data-name="Path 24922" d="M253.224,0a6.558,6.558,0,0,0-4.246,2.3,5.7,5.7,0,0,0-1.39,4.426,5.535,5.535,0,0,0,4.285-2.189A6.149,6.149,0,0,0,253.224,0Z" transform="translate(-247.522)" fill="#0a0a0a"/>
+        </g>
+      </g>
+      <g id="Group_6912" data-name="Group 6912" transform="translate(0 6.542)">
+        <g id="Group_6911" data-name="Group 6911">
+          <path id="Path_24923" data-name="Path 24923" d="M60.4,122.675a7.075,7.075,0,0,0-5.34-2.835c-2.507,0-3.567,1.2-5.308,1.2-1.8,0-3.16-1.2-5.328-1.2a7.249,7.249,0,0,0-5.834,3.527c-2.021,3.134-1.675,9.026,1.6,14.044,1.172,1.8,2.737,3.815,4.784,3.832,1.822.017,2.335-1.169,4.8-1.181s2.936,1.2,4.755,1.177c2.049-.016,3.7-2.253,4.872-4.049a20.137,20.137,0,0,0,1.8-3.389A6.162,6.162,0,0,1,60.4,122.675Z" transform="translate(-37.336 -119.84)" fill="#0a0a0a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
