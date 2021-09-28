@@ -252,7 +252,17 @@ label#password {
 /* Shoppers Page CSS End */
 
 /* Business Page CSS starts */
-
+#business {
+  height: 100vh !important;
+  background: url(../images/home/groceries.png);
+}
+#business .hero-text a {
+    background: #13ac77 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.41px;
+  }
 /* Business Page CSS Ends */
 
 /* Health Corners Page CSS starts */
@@ -347,6 +357,14 @@ footer.home {
     width: 20% !important;
     margin-top: 6px;
   }
+  #business .hero-text {
+    margin-bottom: 10rem;
+  }
+}
+@media (max-width: 375px) {
+  #business .hero-text {
+    margin-bottom: 6rem;
+  }
 }
 @media (max-width: 320px) {
   .delivery-circle {
@@ -374,6 +392,9 @@ footer.home {
     width: 15%;
     margin: 15px;
     margin-left: -10px;
+  }
+  #business .hero-text {
+    margin-bottom: 3rem;
   }
 }
 @media (max-width: 280px) {
