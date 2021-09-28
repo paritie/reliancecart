@@ -170,7 +170,7 @@ footer {
     }
 
 }
-@media (max-width: 714px) {
+@media (max-width: 720px) {
     .download-app > div{
         height: 350px !important;
     }
@@ -205,13 +205,25 @@ footer {
     }
 
     .part-time-job h1{
-        font-size: 27px;
+        font-size: 25px;
     }
 }
 
 @media (max-width: 335px) {
+    .download-app-h1 br{
+        display: none;
+    }
     .one-to-two{
         height: 120px;
+    }
+}
+
+@media (max-width: 304px) {
+    .frequently-asked-questions > div > h1{
+        font-size: 22px;
+    }
+    .two-to-three{
+        height: 117px;
     }
 }
 
