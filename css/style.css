@@ -71,10 +71,10 @@ nav ul li a.download-btn {
   background: url(../images/home/groceries.png);
 }
 /* hero */
-#hero img {
+/* #hero img {
   width: 100vw;
   height: 85vh;
-}
+} */
 .hero-text {
   box-shadow: 0px 31px 99px #0000001a;
   top: 50%;
@@ -229,15 +229,16 @@ label#message {
   font-size: 12px !important;
   opacity: 0.5;
 }
-#user-registeration form input, textarea {
+#user-registeration form input,
+textarea {
   border: 0px !important;
   background: rgba(19, 172, 119, 0.09) !important;
   border-radius: 12px;
 }
-#user-registeration form input::placeholder, textarea::placeholder {
+#user-registeration form input::placeholder,
+textarea::placeholder {
   font-family: Futura-medium;
   opacity: 0.5;
-  
 }
 #user-registeration form .pw {
   background: rgba(19, 172, 119, 0.09) !important;
@@ -270,18 +271,18 @@ label#message {
   background: url(../images/home/groceries.png);
 }
 #business .hero-text a {
-    background: #13ac77 0% 0% no-repeat padding-box;
-    border-radius: 12px;
-    color: #fff;
-    font-size: 12px;
-    letter-spacing: 0.41px;
-  }
+  background: #13ac77 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.41px;
+}
 /* Business Page CSS Ends */
 
 /* become a partner Page CSS starts */
-  .fs-36 {
-    font-size: 36px;
-  }
+.fs-36 {
+  font-size: 36px;
+}
 /* become a partner Page CSS Ends */
 
 /* Footer CSS Starts */
@@ -329,9 +330,15 @@ footer.home {
     font-size: 18px;
   }
 }
-@media (max-width: 976px) {
-  #user-registeration form img.visibility-on {
-    /* margin-top: -3px; */
+@media (max-height: 670px) {
+  #hero .hero-text h1 {
+    font-size: 36px;
+  }
+  #hero .hero-text span {
+    font-size: 18px;
+  }
+  #hero .hero-text div.mt-sm-4 {
+    margin-top: 5px !important;
   }
 }
 
