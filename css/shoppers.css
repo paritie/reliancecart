@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    height: 100px;
+    content: '';
+    display: block;
+}
+
+/* imported header code  */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* Home Page CSS starts */
+
+/* header */
+@font-face {
+    font-family: Futura-medium;
+    src: url(../fonts/futura/Futura\ Medium.otf);
+}
+@font-face {
+    font-family: Futura-bold;
+    src: url(../fonts/futura/Futura\ Bold.ttf);
+}
+.futura-medium  {
+    font-family: Futura-medium;
+}
+
+.top {
+  position: fixed !important;
+  background: #fff !important;
+  box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  min-height: 90px;
+  padding: 25px 60px !important;
+}
+nav ul li a {
+  font-size: 18px !important;
+  color: #000000 !important;
+  font-family: Futura-medium ,'Source Sans Pro', sans-serif;
+  opacity: .6;
+}
+nav ul li a.download-btn {
+  background: #13ac77;
+  border-radius: 20px;
+  padding: 15px 20px !important;
+  font-family: Futura-medium;
+  color: #fff !important;
+  font-size: 14px !important;
+  font-weight:  200 !important;
+  opacity: 1 !important;
+}
+/* header {
+  height: 120vh;
+} */
+/* Home Page CSS Ends */
+
+
+
+/* Shoppers Page CSS starts */
+.part-time-job{
+    background: rgba(244, 244, 244, 0.6);
+    height: 600px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.become-a-shopper-1{
+    padding: 12px 15px;
+    background: #13ac77;
+    font-family: Futura-medium;
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 200 !important;
+    opacity: 1 !important;
+    border: none;
+}
+
+.timeline{
+    background: rgba(244, 244, 244, 0.6);   
+}
+.app-interface img{
+    border: 20px solid white;
+    background: white;
+    border-radius: 45px;
+}
+.timeline-numbers p{
+    font-weight: 600;
+}
+
+.one-to-two{
+ height: 97px;
+ width: 1px;
+
+}
+.two-to-three{
+height: 97px;
+width: 1px;
+}
+
+.display-block{
+    display: block !important;
+}
+
+.frequently-asked-questions > div{
+    padding-left: 130px !important ;
+}
+
+.frequently-asked-questions > div > h1{
+    font-size: calc(1.375rem + 1vw)!important;
+}
+/* Shoppers Page CSS End */
+
+
+
+/* Business Page CSS starts */
+
+/* Business Page CSS Ends */
+
+
+
+/* Health Corners Page CSS starts */
+
+/* Health Corner Page CSS Ends */
+
+
+
+/* Footer CSS Starts */
+footer {
+    backface-visibility: #fff;
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.08);
+    /* position: absolute; */
+    width: 100%;
+    /* bottom: 0; */
+}
+.footer-nav-items span a {
+    color: #000000 !important;
+}
+.footer-nav-items span a:hover {
+    color: #fff !important;
+}
+/* Footer CSS Ends */
+
+
+@media (max-width: 1000px) {
+    .frequently-asked-questions > div {
+        padding-left: 50px !important;
+    }
+}
+@media (max-width: 855px) {
+    .frequent-questions br{
+        display: none;
+    }
+    .part-time-job h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .part-time-job{
+        height: auto;
+    }
+
+    .part-time-job > div:first-child{
+        /* order: 2; */
+    }
+    .frequently-asked-questions h5{
+        font-size: 17px !important; 
+    }
+
+}
+@media (max-width: 714px) {
+    .download-app > div{
+        height: 350px !important;
+    }
+    .download-app > div > div > div:nth-child(2){
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .top {
+        padding: 25px 10px !important;
+    }
+    .part-time-job{
+        text-align: center;
+    }
+
+    .frequently-asked-questions > div{
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+    .frequently-asked-questions h5{
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 404px) {
+    .timeline-text br{
+        display: none;
+    }
+}
+@media (max-width: 367px) {
+    .download-app  br{
+        display: none;
+    }
+
+    .part-time-job h1{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 335px) {
+    .one-to-two{
+        height: 120px;
+    }
+}
+
+/* end of imported code */
+
+header{
+    position: absolute;
+    top: 0;
+}
