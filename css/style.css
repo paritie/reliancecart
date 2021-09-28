@@ -243,6 +243,7 @@ label#password {
   right: 0;
   /* top: 0%; */
   margin-top: 8px;
+  opacity: .5;
 }
 /* User Registeration Page CSS End */
 
