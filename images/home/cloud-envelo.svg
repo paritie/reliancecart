@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202.24" height="113.851" viewBox="0 0 202.24 113.851">
+  <g id="Layer_2" data-name="Layer 2" transform="translate(-1.934 -1.958)" opacity="0.4">
+    <g id="outline_III" data-name="outline III" transform="translate(3.001 2.999)">
+      <g id="message_sent" data-name="message sent" transform="translate(0)">
+        <g id="clouds">
+          <path id="Path_201251" data-name="Path 201251" d="M5.261,24.963c2.39-1.57,5.769-2.525,10.537-1.913,0,0,4.71-15.271,19.218-9.427,0,0,6.028-15.821,22.044-8.849l1.137.574a19.472,19.472,0,0,1,6.619,8.275C79.324,7.778,84.028,23.05,84.028,23.05c14.7-1.885,16.2,11.113,16.2,11.113H8.035A5.017,5.017,0,0,1,5.261,24.963Z" transform="translate(-3.001 -2.999)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_201252" data-name="Path 201252" d="M411.454,465.206c13.019-.64,14.4,11.276,14.4,11.276h-92.2a5.019,5.019,0,0,1-2.774-9.2c2.391-1.568,5.771-2.523,10.537-1.913,0,0,4.712-15.271,19.22-9.425a19.724,19.724,0,0,1,5.914-7.773" transform="translate(-267.545 -364.672)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_201253" data-name="Path 201253" d="M563.86,199.554c2.39-1.57,5.769-2.525,10.537-1.913,0,0,4.71-15.271,19.218-9.425,0,0,6.03-15.823,22.044-8.851l1.137.574a19.471,19.471,0,0,1,6.619,8.277c14.508-5.846,19.218,9.425,19.218,9.425,14.7-1.876,16.2,11.115,16.2,11.115H603.768" transform="translate(-458.664 -144.843)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <g id="message" transform="translate(34.114 18.985)">
+          <path id="message-2" data-name="message" d="M276.045,140.737a26.494,26.494,0,0,1,3,.173V107.555a3.335,3.335,0,0,0-3.337-3.335H188.217a3.337,3.337,0,0,0-3.337,3.335v52.021a3.337,3.337,0,0,0,3.337,3.335h61.871A26.283,26.283,0,0,1,276.045,140.737Z" transform="translate(-184.88 -104.22)" fill="#13ac77"/>
+          <g id="lines" transform="translate(1.011 1.699)">
+            <path id="Path_201254" data-name="Path 201254" d="M197.64,113.28l42.971,33.315a2.77,2.77,0,0,0,3.442,0l42.973-33.315" transform="translate(-196.258 -113.28)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <line id="Line_16" data-name="Line 16" y1="26.244" x2="26.985" transform="translate(0 19.85)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <line id="Line_17" data-name="Line 17" x2="16.551" y2="16.097" transform="translate(65.401 19.85)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+        <g id="icon" transform="translate(99.003 55.502)">
+          <circle id="Ellipse_74" data-name="Ellipse 74" cx="26.276" cy="26.276" r="26.276" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="succes_icon" data-name="succes icon" d="M602.418,303.821a2.331,2.331,0,0,0-3.209.75l-5.741,9.221a19.882,19.882,0,1,0,3.35,3.438l6.347-10.2A2.33,2.33,0,0,0,602.418,303.821Zm-3,25.445a18.419,18.419,0,1,1-6.73-14.217l-10.391,16.7-6.017-8.005a2.334,2.334,0,1,0-3.736,2.8l8.065,10.725a2.326,2.326,0,0,0,1.862.928h.1a2.326,2.326,0,0,0,1.876-1.1l11.541-18.527A18.286,18.286,0,0,1,599.417,329.266Z" transform="translate(-555.445 -302.615)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
