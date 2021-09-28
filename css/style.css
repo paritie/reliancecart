@@ -268,9 +268,11 @@ label#password {
   }
 /* Business Page CSS Ends */
 
-/* Health Corners Page CSS starts */
-
-/* Health Corner Page CSS Ends */
+/* become a partner Page CSS starts */
+  .fs-36 {
+    font-size: 36px;
+  }
+/* become a partner Page CSS Ends */
 
 /* Footer CSS Starts */
 footer.home {
@@ -365,6 +367,9 @@ footer.home {
   }
   #user-registeration .sign-up-logos img {
     width: 20%;
+  }
+  .fs-36 {
+    font-size: 20px;
   }
 }
 @media (max-width: 375px) {
