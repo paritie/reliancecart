@@ -74,6 +74,9 @@ header{
 /* Health Corners Page CSS starts */
 
 /* main section of the body */
+body{
+    text-transform: capitalize !important;
+}
 main{
     padding-top: 100px;
     margin-bottom: 100px;
