@@ -139,7 +139,7 @@ main{
      font-weight: bolder;
  }
  .bold{
-     font-weight: bolder;
+     font-weight: bolder !important;
  }
 /* subscribe us ends here */
 
