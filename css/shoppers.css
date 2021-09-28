@@ -57,6 +57,10 @@ nav ul li a.download-btn {
     height: 58px;
     margin-right: 20px;
 }
+.logo img{
+    width: 58px;
+    height: 58px;
+}
 /* header {
   height: 120vh;
 } */
