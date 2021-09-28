@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* Home Page CSS starts */
+
+/* header */
+@font-face {
+    font-family: Futura-medium;
+    src: url(../fonts/futura/Futura\ Medium.otf);
+}
+@font-face {
+    font-family: Futura-bold;
+    src: url(../fonts/futura/Futura\ Bold.ttf);
+}
+@font-face {
+    font-family: Futura-heavy;
+    src: url(../fonts/futura/Futura\ Std\ Heavy.ttf);
+}
+
+.futura-medium{
+    font-family: Futura-medium;
+}
+
+.futura-heavy{
+    font-family: Futura-heavy;
+}
+
+*{
+    box-sizing:  border-box !important;
+}
+
+div.rounded-circle{
+    padding: 15px 20px;
+}
+
+.upload-file{
+    border: 1px dashed black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+form label{
+    font-size: 14px !important;
+}
+.form-section{
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form .btn{
+    display: flex;
+    justify-content: center;
+}
