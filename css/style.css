@@ -225,11 +225,19 @@ label#email,
 label#password,
 label#website,
 label#address,
-label#message {
+label#message,
+label#home-address,
+label#d-license,
+#drag {
   font-size: 12px !important;
   opacity: 0.5;
 }
-#user-registeration form input,
+#user-registeration form .form-check-label {
+  font-size: 14px;
+  font-family: Futura-medium;
+  opacity: .5 !important;
+}
+#user-registeration form input:nth-child(3),
 textarea {
   border: 0px !important;
   background: rgba(19, 172, 119, 0.09) !important;
@@ -258,6 +266,26 @@ textarea::placeholder {
 }
 .mt-log-in {
   margin-top: -40px;
+}
+#user-registeration form .form-check-input {
+  border: 1px solid #13AC77  !important;
+  padding: 10px !important;
+}
+#user-registeration form .form-check-label {
+  margin: 6px 0 0 3px;
+}
+#user-registeration form .form-check-input:checked {
+  background-color: #13AC77  !important;
+
+}
+.upload-file{
+  border: 1px dashed black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
 }
 /* User Registeration Page CSS End */
 
