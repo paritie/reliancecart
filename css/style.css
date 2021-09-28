@@ -222,18 +222,22 @@ footer.register span a {
 }
 label#name,
 label#email,
-label#password {
+label#password,
+label#website,
+label#address,
+label#message {
   font-size: 12px !important;
   opacity: 0.5;
 }
-#user-registeration form input {
+#user-registeration form input, textarea {
   border: 0px !important;
   background: rgba(19, 172, 119, 0.09) !important;
   border-radius: 12px;
 }
-#user-registeration form input::placeholder {
+#user-registeration form input::placeholder, textarea::placeholder {
   font-family: Futura-medium;
   opacity: 0.5;
+  
 }
 #user-registeration form .pw {
   background: rgba(19, 172, 119, 0.09) !important;
@@ -241,12 +245,18 @@ label#password {
 }
 #user-registeration form img.visibility-on {
   right: 0;
-  /* top: 0%; */
-  /* margin-top: 8px; */
-  /* opacity: .5; */
 }
 #user-registeration .sign-up-logos img {
   width: 40%;
+}
+.mt-become-partner {
+  margin-top: -20px;
+}
+.mt-sign-up {
+  margin-top: -30px;
+}
+.mt-log-in {
+  margin-top: -40px;
 }
 /* User Registeration Page CSS End */
 
@@ -296,6 +306,9 @@ footer.home {
   }
   #user-registeration form input::placeholder {
     padding: 2rem;
+  }
+  #user-registeration textarea {
+    height: 131px !important;
   }
 }
 @media (max-width: 1200px) {
@@ -370,6 +383,9 @@ footer.home {
   }
   .fs-36 {
     font-size: 20px;
+  }
+  #user-registeration form input::placeholder {
+    font-size: 10px;
   }
 }
 @media (max-width: 375px) {
