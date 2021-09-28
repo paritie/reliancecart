@@ -226,7 +226,7 @@ label#password {
   font-size: 12px !important;
   opacity: 0.5;
 }
-#user-registeration form input:nth-child(3) {
+#user-registeration form input {
   border: 0px !important;
   background: rgba(19, 172, 119, 0.09) !important;
   border-radius: 12px;
@@ -235,19 +235,14 @@ label#password {
   font-family: Futura-medium;
   opacity: 0.5;
 }
-#user-registeration form .pw input {
-  border: 0;
-  background: rgba(19, 172, 119, 0.09) !important;
-}
-#user-registeration form .pw input:focus {
-  outline: none !important;
-}
 #user-registeration form .pw {
   background: rgba(19, 172, 119, 0.09) !important;
   border-radius: 12px;
 }
-#user-registeration form .pw:focus {
-  outline: 2px solid black;
+#user-registeration form img.visibility-on {
+  right: 0;
+  /* top: 0%; */
+  margin-top: 8px;
 }
 /* User Registeration Page CSS End */
 
@@ -305,18 +300,9 @@ footer.home {
     font-size: 18px;
   }
 }
-@media (max-width: 768px) {
-  #hero {
-    height: 70vh !important;
-  }
-  .fs-24 {
-    font-size: 16px !important;
-  }
-  .fs-16 {
-    font-style: 12px;
-  }
-  .health-concious p {
-    font-size: 13px !important;
+@media (max-width: 976px) {
+  #user-registeration form img.visibility-on {
+    margin-top: -3px;
   }
 }
 
@@ -356,6 +342,10 @@ footer.home {
   .register-arrow a img {
     margin-left: -10px;
   }
+  #user-registeration form img.visibility-on {
+    width: 20% !important;
+    margin-top: 6px;
+  }
 }
 @media (max-width: 320px) {
   .delivery-circle {
@@ -383,5 +373,11 @@ footer.home {
     width: 15%;
     margin: 15px;
     margin-left: -10px;
+  }
+}
+@media (max-width: 280px) {
+  #user-registeration form img.visibility-on {
+    width: 20% !important;
+    margin-top: 10px;
   }
 }
