@@ -151,14 +151,20 @@ main{
     
    border-radius: 10px !important;
    border: 0px;
-   
 }
+
 .card-image{
-   background-image: url(https://i.pinimg.com/originals/69/6a/d2/696ad22937038ca35a38e16e1e50b18c.jpg);
    height: 290px;
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px !important;
+}
+.card img{
+    border-radius: 20px;
+    height: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
 }
 .col{
     height: 470px;
@@ -168,7 +174,11 @@ main{
      font-size: 12px;
      padding: 0px;
  }
- 
+ .card-category{
+  
+    position: absolute;
+    margin: 0px 20px 10px 0px;
+ }
 
 .view-more-articles{
     top: 1251px;
