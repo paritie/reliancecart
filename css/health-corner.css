@@ -1,6 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /* Home Page CSS starts */
 
+nav ul li a.active::before{
+    width: 50%;
+}
+nav ul li a.active{ 
+    font-weight: bold !important;
+}
+nav ul li a::before {
+    position: absolute;
+    bottom: 8px;
+    width: 0%;
+    height: 2px;
+    display: block;
+    content: '';
+    background-color: #13ac77;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .5s ease;
+  }
+nav ul li a:hover::before {
+    width: 50%;
+  }
+
+
+
+
 /* header */
 @font-face {
     font-family: Futura-medium;
@@ -22,10 +47,13 @@
   padding: 0 60px !important;
 }
 nav ul li a {
+  position: relative;
+  font-family: Futura-medium !important;
   font-size: 18px !important;
   color: #000000 !important;
   font-family: 'Source Sans Pro', sans-serif;
   opacity: .6;
+  display: inline-block !important;
 }
 nav ul li a.download-btn {
   background: #13ac77;
