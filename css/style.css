@@ -78,13 +78,20 @@ nav ul li a.download-btn {
 }
 #hero {
   height: 87vh !important;
+  width: 100%;
+  backface-visibility: hidden;
+  animation: bgslide 8s linear infinite 0s;
+  animation-timing-function: ease-in-out;
   background: url(../images/home/groceries.png);
 }
-/* hero */
-/* #hero img {
-  width: 100vw;
-  height: 85vh;
-} */
+@keyframes bgslide {
+  0% {
+    background: url(../images/home/groceries.png);
+  }
+  50% {
+    background: url(../images/home/bg1.jpg);
+  }
+}
 .hero-text {
   box-shadow: 0px 31px 99px #0000001a;
   top: 50%;
@@ -140,7 +147,9 @@ a.start-shopping:hover {
   display: inline-block;
   background: #fff;
   color: #13ac77;
-
+}
+#health-concious .custom-card:hover h5  {
+  color: #fff;
 }
 #health-concious .custom-card:hover .hover-btn {
   background: #13AC77 ;
@@ -334,6 +343,19 @@ textarea::placeholder {
 #business {
   height: 100vh !important;
   background: url(../images/home/groceries.png);
+  animation: bg-slide 8s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bg-slide {
+  0% {
+    background: url(../images/home/groceries.png);
+  }
+  50% {
+    background: url(../images/home/bg1.jpg);
+  }
+  /* 100% {
+    background: url(../images/home/groceries.png);
+  } */
 }
 #business .hero-text a {
   background: #13ac77 0% 0% no-repeat padding-box;
@@ -522,4 +544,5 @@ footer.home {
     width: 20% !important;
     /* margin-top: 10px; */
   }
+}
 }
