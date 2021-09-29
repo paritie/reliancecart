@@ -67,7 +67,7 @@ nav ul li a.download-btn {
   opacity: 1 !important;
 }
 #hero {
-  height: 85vh !important;
+  height: 87vh !important;
   background: url(../images/home/groceries.png);
 }
 /* hero */
@@ -97,6 +97,7 @@ a.start-shopping:hover {
   border-radius: 76px;
 }
 #health-concious .custom-card {
+  padding-top: 35px;
   background: #fff;
   box-shadow: 0px 21px 99px #0000001a;
   border-radius: 12px;
@@ -109,6 +110,32 @@ a.start-shopping:hover {
   padding: 15px 20px;
   border-radius: 50%;
   font-weight: bold;
+}
+#health-concious .hover-btn {
+  height: 0px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  transform: height .5s linear;
+  transition: .5s ease all  ;
+  overflow: hidden;
+}
+#health-concious .hover-btn a {
+  display: none;
+  transform: display .5s linear;
+}
+#health-concious .custom-card:hover {
+  background: #13AC77;
+}
+#health-concious .custom-card:hover .hover-btn a  {
+  display: inline-block;
+  background: #fff;
+  color: #13ac77;
+
+}
+#health-concious .custom-card:hover .hover-btn {
+  background: #13AC77 ;
+  height: 70px !important;
+  margin-bottom: 10px;
 }
 .full-circle {
   left: 25%;
@@ -237,7 +264,7 @@ label#d-license,
   font-family: Futura-medium;
   opacity: .5 !important;
 }
-#user-registeration form input:nth-child(3),
+#user-registeration form input,
 textarea {
   border: 0px !important;
   background: rgba(19, 172, 119, 0.09) !important;
@@ -278,7 +305,7 @@ textarea::placeholder {
   background-color: #13AC77  !important;
 
 }
-.upload-file{
+.upload-file {
   border: 1px dashed black;
   padding: 20px;
   display: flex;
@@ -369,7 +396,25 @@ footer.home {
     margin-top: 5px !important;
   }
 }
-
+@media (max-height: 601px) {
+  #hero .hero-text h1 {
+    font-size: 32px;
+  }
+  #hero .hero-text span {
+    font-size: 17px;
+  }
+  #hero .hero-text div.mt-sm-4 {
+    margin-top: 7px !important;
+  }
+  .delivery-circle {
+    display: none;
+  }
+}
+@media (max-width: 1281px) and (max-height: 800px) {
+  .fs-52 {
+    font-size: 40px !important;
+  }
+}
 @media (max-width: 576px) {
   .top {
     padding: 10px !important;
