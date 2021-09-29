@@ -66,6 +66,16 @@ nav ul li a.download-btn {
   font-weight: 200 !important;
   opacity: 1 !important;
 }
+.logo{
+  width: 58px;
+  height: 58px;
+  margin-right: 20px;
+}
+.logo img{
+  width: 58px;
+  height: 58px;
+  margin-right: 20px;
+}
 #hero {
   height: 87vh !important;
   background: url(../images/home/groceries.png);
@@ -472,6 +482,9 @@ footer.home {
   #business .hero-text {
     margin-bottom: 6rem;
   }
+ .logo{
+        display: none;
+  
 }
 @media (max-width: 320px) {
   .delivery-circle {

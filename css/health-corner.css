@@ -43,14 +43,12 @@ header{
     width: 100%;
     z-index: 10;
 }
-.logo{
+.logo img{
+    width: 58px ;
     height: 58px;
-    width: 58px;
-   
-    background-color: #13ac77;
-    opacity: 0.2;
-    margin-right: 15px !important;
+    margin-right: 20px;
 }
+
 
 
 /* header {
@@ -145,20 +143,28 @@ main{
 
 
 
+
 /* three collumn cards begins here */
 
 .card{
     
    border-radius: 10px !important;
    border: 0px;
-   
+   margin-bottom: 20px !important ;
 }
+
 .card-image{
-   background-image: url(https://i.pinimg.com/originals/69/6a/d2/696ad22937038ca35a38e16e1e50b18c.jpg);
    height: 290px;
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 20px !important;
+}
+.card img{
+    border-radius: 20px;
+    height: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
 }
 .col{
     height: 470px;
@@ -168,7 +174,11 @@ main{
      font-size: 12px;
      padding: 0px;
  }
- 
+ .card-category{
+  
+    position: absolute;
+    margin: 0px 20px 10px 0px;
+ }
 
 .view-more-articles{
     top: 1251px;
@@ -229,5 +239,12 @@ footer {
     }
     .email-input{
         width: 100%;
+    }
+
+    @media screen and (max-width:350px) {
+        .logo{
+            display: none;
+        }
+        
     }
 }
