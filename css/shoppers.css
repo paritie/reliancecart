@@ -216,12 +216,13 @@ footer {
     .one-to-two{
         height: 120px;
     }
+    .frequently-asked-questions > div > h1{
+        font-size: 22px !important;
+        margin-bottom: 1.5rem !important;
+    }
 }
 
 @media (max-width: 304px) {
-    .frequently-asked-questions > div > h1{
-        font-size: 22px;
-    }
     .two-to-three{
         height: 117px;
     }
