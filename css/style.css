@@ -437,6 +437,9 @@ footer.home {
   #business .hero-text {
     margin-bottom: 6rem;
   }
+ .logo{
+        display: none;
+  
 }
 @media (max-width: 320px) {
   .delivery-circle {

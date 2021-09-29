@@ -143,12 +143,14 @@ main{
 
 
 
+
 /* three collumn cards begins here */
 
 .card{
     
    border-radius: 10px !important;
    border: 0px;
+   margin-bottom: 20px !important ;
 }
 
 .card-image{
@@ -237,5 +239,12 @@ footer {
     }
     .email-input{
         width: 100%;
+    }
+
+    @media screen and (max-width:350px) {
+        .logo{
+            display: none;
+        }
+        
     }
 }
