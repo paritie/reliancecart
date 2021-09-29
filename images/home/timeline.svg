@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="638" height="20" viewBox="0 0 638 20">
-  <g id="Group_54858" data-name="Group 54858" transform="translate(-632 -3588)">
-    <line id="Line_9" data-name="Line 9" x2="631" transform="translate(638.5 3598.5)" fill="none" stroke="#e3e8ec" stroke-width="5"/>
-    <rect id="Rectangle_11262" data-name="Rectangle 11262" width="20" height="20" rx="10" transform="translate(632 3588)" fill="#e3e8ec"/>
-    <rect id="Rectangle_11263" data-name="Rectangle 11263" width="20" height="20" rx="10" transform="translate(944 3588)" fill="#e3e8ec"/>
-    <rect id="Rectangle_11264" data-name="Rectangle 11264" width="20" height="20" rx="10" transform="translate(1250 3588)" fill="#e3e8ec"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="638" height="20"><g data-name="Group 54858" transform="translate(-632 -3588)"><path data-name="Line 9" fill="none" stroke="#e3e8ec" stroke-width="5" d="M638.5 3598.5h631"/><rect data-name="Rectangle 11262" width="20" height="20" rx="10" transform="translate(632 3588)" fill="#e3e8ec"/><rect data-name="Rectangle 11263" width="20" height="20" rx="10" transform="translate(944 3588)" fill="#e3e8ec"/><rect data-name="Rectangle 11264" width="20" height="20" rx="10" transform="translate(1250 3588)" fill="#e3e8ec"/></g></svg>

@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
-  <g id="Group_54781" data-name="Group 54781" transform="translate(-1371 -342)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1371 342)" fill="rgba(19,172,119,0.2)" stroke="#13ac77" stroke-width="2">
-      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
-      <circle cx="11.5" cy="11.5" r="10.5" fill="none"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"><g data-name="Group 54781"><g data-name="Ellipse 1" fill="rgba(19,172,119,0.2)" stroke="#13ac77" stroke-width="2"><circle cx="11.5" cy="11.5" r="11.5" stroke="none"/><circle cx="11.5" cy="11.5" r="10.5" fill="none"/></g></g></svg>
