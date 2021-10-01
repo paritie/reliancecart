@@ -109,7 +109,7 @@ nav ul li a.download-btn {
   width: 100%;
   backface-visibility: hidden;
   animation: bgslide 8s linear infinite 0s;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: step-start;
   background: url(../images/home/groceries.png);
 }
 @keyframes bgslide {
@@ -163,13 +163,18 @@ a.start-shopping:hover {
   transform: height .5s linear;
   transition: .5s ease all  ;
   overflow: hidden;
+ 
 }
 #health-concious .hover-btn a {
   display: none;
   transform: display .5s linear;
+
 }
 #health-concious .custom-card:hover {
   background: #13AC77;
+  /* border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-bottom: 20px !important; */
 }
 #health-concious .custom-card:hover .hover-btn a  {
   display: inline-block;
@@ -425,6 +430,11 @@ footer.home {
   }
   #user-registeration textarea {
     height: 131px !important;
+  }
+}
+@media (max-width: 1430px) {
+  .fs-52 {
+    font-size: 42px;
   }
 }
 @media (max-width: 1200px) {
