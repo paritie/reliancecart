@@ -28,13 +28,18 @@ body::before{
     font-family: Futura-medium;
 }
 
+header{
+    position: absolute;
+    top: 0;
+}
+
 .top {
   position: fixed !important;
   background: #fff !important;
   box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.08);
   width: 100%;
   min-height: 90px;
-  padding: 25px 60px !important;
+  padding: 17px 60px !important;
 }
 nav ul li a {
   position: relative;
@@ -95,7 +100,6 @@ nav ul li a.download-btn {
 /* Shoppers Page CSS starts */
 .part-time-job{
     background: rgba(244, 244, 244, 0.6);
-    height: 600px;
     font-size: 20px;
     border-radius: 12px;
 }
@@ -111,7 +115,7 @@ nav ul li a.download-btn {
     border: none;
 }
 
-.timeline{
+section > .timeline{
     background: rgba(244, 244, 244, 0.6);   
 }
 .app-interface img{
@@ -119,20 +123,15 @@ nav ul li a.download-btn {
     background: white;
     border-radius: 45px;
 }
-.timeline-numbers p{
-    font-weight: 600;
-}
 
-.one-to-two{
- height: 97px;
- width: 1px;
-
+.timeline div .body{
+    border-left: 1px solid green;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin: 7px 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
-.two-to-three{
-height: 97px;
-width: 1px;
-}
-
 .display-block{
     display: block !important;
 }
@@ -228,7 +227,7 @@ footer {
     }
 }
 @media (max-width: 404px) {
-    .timeline-text br{
+    .timeline .body br{
         display: none;
     }
 }
@@ -246,24 +245,12 @@ footer {
     .download-app-h1 br{
         display: none;
     }
-    .one-to-two{
-        height: 120px;
-    }
     .frequently-asked-questions > div > h1{
         font-size: 22px !important;
         margin-bottom: 1.5rem !important;
     }
 }
 
-@media (max-width: 304px) {
-    .two-to-three{
-        height: 117px;
-    }
-}
 
 /* end of imported code */
 
-header{
-    position: absolute;
-    top: 0;
-}

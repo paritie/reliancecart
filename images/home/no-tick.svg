@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
-  <g id="Group_54781" data-name="Group 54781" transform="translate(-1371 -342)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1371 342)" fill="#13ac77" stroke="#13ac77" stroke-width="1">
-      <circle cx="11.5" cy="11.5" r="11.5" stroke="none"/>
-      <circle cx="11.5" cy="11.5" r="11" fill="none"/>
-    </g>
-    <g id="fi-rr-text-check" transform="translate(1370 338)">
-      <path id="Path_2" data-name="Path 2" d="M18.793,11.207a.706.706,0,0,0-1,0l-6.56,6.56L8.2,14.736a.706.706,0,1,0-1,1l3.53,3.529a.706.706,0,0,0,1,0l7.059-7.059a.706.706,0,0,0,0-1Z" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-width="0.1"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"><g data-name="Group 54781"><g data-name="Ellipse 1" fill="#13ac77" stroke="#13ac77"><circle cx="11.5" cy="11.5" r="11.5" stroke="none"/><circle cx="11.5" cy="11.5" r="11" fill="none"/></g><path data-name="Path 2" d="M17.793 7.207a.706.706 0 00-1 0l-6.56 6.56L7.2 10.736a.707.707 0 10-1 1l3.53 3.529a.706.706 0 001 0l7.059-7.059a.706.706 0 000-1z" fill="#fff" stroke="#fff" stroke-width=".1"/></g></svg>
