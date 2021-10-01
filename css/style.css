@@ -131,6 +131,12 @@ nav ul li a.download-btn {
   padding: 17px;
   font-weight: 200 !important;
 }
+.first-btn {
+  background: #13ac77 !important;
+  border: 0;
+  border-radius: 12px;
+  padding: 17px !important;
+}
 a.start-shopping:hover {
   background: #13ac77;
   color: #fff;
