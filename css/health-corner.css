@@ -133,7 +133,12 @@ main{
 .btn{
     font-weight: bolder;
 }
-
+.fs-13 {
+    font-size: 13px !important;
+}
+.fs-18 {
+    font-size: 18px;
+}
 .email-input input{
     outline: none;
     border: none;
@@ -180,32 +185,11 @@ main{
    margin-bottom: 20px !important ;
 }
 
-.card-image{
-   height: 290px;
-   background-size: cover;
-   background-repeat: no-repeat;
-   border-radius: 20px !important;
-}
+
 .card img{
     border-radius: 20px;
-    height: 290px;
-    background-size: cover;
-    background-repeat: no-repeat;
     border-radius: 20px !important;
 }
-.col{
-    height: 470px;
-}
- .card-footer{
-     background-color: white;
-     font-size: 12px;
-     padding: 0px;
- }
- .card-category{
-  
-    position: absolute;
-    margin: 0px 20px 10px 0px;
- }
 
 .view-more-articles{
     top: 1251px;
@@ -243,18 +227,28 @@ footer {
 /* Footer CSS Ends */
 
 
-
-@media (max-with: 1200px) {
-}
-@media (max-width: 655px) {
+@media (max-width: 769px) {
     .top {
         padding: 10px !important;
     }
     .main{
         padding: 0 20px !important;
     }
+    .fs-13 {
+        font-size: 10px !important;
+    }
+    .fs-18 {
+        font-size: 14px !important;
+    }
+    #view-more-cards-parent{
+        margin-top: 12px !important;
+       
+    }
+    .caption{
+        font-size: 18px;
+    }
     .title{
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
     }
     .caption, .subscribe{

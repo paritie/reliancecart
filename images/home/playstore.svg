@@ -1,6 +1,1 @@
-<svg id="playstore" xmlns="http://www.w3.org/2000/svg" width="26.715" height="30" viewBox="0 0 26.715 30">
-  <path id="Path_200859" data-name="Path 200859" d="M1.053,18.855A2.744,2.744,0,0,0,.5,20.52V44.98a2.75,2.75,0,0,0,.48,1.564L14.289,32.662Zm0,0" transform="translate(-0.5 -17.751)" fill="#fff"/>
-  <path id="Path_200860" data-name="Path 200860" d="M48.108,13.64l4.318-4.5L37.249.374A2.734,2.734,0,0,0,35.129.1Zm0,0" transform="translate(-33.1 0)" fill="#fff"/>
-  <path id="Path_200861" data-name="Path 200861" d="M46,276.18l-13.11,13.675a2.721,2.721,0,0,0,.868.143,2.76,2.76,0,0,0,1.383-.375L50.428,280.8Zm0,0" transform="translate(-30.993 -259.997)" fill="#fff"/>
-  <path id="Path_200862" data-name="Path 200862" d="M286.542,173.956l-4.437-2.562-4.668,4.869,4.777,4.983,4.328-2.5a2.766,2.766,0,0,0,0-4.79Zm0,0" transform="translate(-261.211 -161.352)" fill="#fff"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="26.715" height="30"><path data-name="Path 200859" d="M.553 1.104A2.744 2.744 0 000 2.769v24.46a2.75 2.75 0 00.48 1.564l13.309-13.882zm0 0" fill="#fff"/><path data-name="Path 200860" d="M15.008 13.64l4.318-4.5L4.149.374A2.734 2.734 0 002.029.1zm0 0" fill="#fff"/><path data-name="Path 200861" d="M15.007 16.183L1.897 29.858a2.721 2.721 0 00.868.143 2.76 2.76 0 001.383-.375l15.287-8.823zm0 0" fill="#fff"/><path data-name="Path 200862" d="M25.331 12.604l-4.437-2.562-4.668 4.869 4.777 4.983 4.328-2.5a2.766 2.766 0 000-4.79zm0 0" fill="#fff"/></svg>
