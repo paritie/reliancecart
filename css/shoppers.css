@@ -101,7 +101,7 @@ nav ul li a.download-btn {
 .part-time-job{
     background: rgba(244, 244, 244, 0.6);
     font-size: 20px;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .become-a-shopper-1{
@@ -122,6 +122,17 @@ section > .timeline{
     border: 20px solid white;
     background: white;
     border-radius: 45px;
+}
+
+.app-interface p{
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    font-family: Playball;
+}
+.app-interface p.half{
+    top: 60%;
 }
 
 .timeline div .body{
