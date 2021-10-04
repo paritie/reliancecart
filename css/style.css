@@ -109,15 +109,21 @@ nav ul li a.download-btn {
   width: 100%;
   backface-visibility: hidden;
   animation: bgslide 8s linear infinite 0s;
-  animation-timing-function: step-start;
+  animation-timing-function: step-end;
   background: url(../images/home/groceries.png);
 }
 @keyframes bgslide {
   0% {
     background: url(../images/home/groceries.png);
   }
+  25% {
+    background: url(../images/home/carbage-grocery.jpg);
+  }
   50% {
-    background: url(../images/home/bg1.jpg);
+    background: url(../images/home/pepper-groceries.jpg);
+  }
+  100% {
+    background: url(../images/home/pepper-groceries.jpg);
   }
 }
 .hero-text {
@@ -381,20 +387,24 @@ textarea::placeholder {
 /* Business Page CSS starts */
 #business {
   height: 100vh !important;
-  background: url(../images/home/groceries.png);
+  backface-visibility: hidden;
   animation: bg-slide 8s linear infinite 0s;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: step-end;
+  background: url(../images/home/groceries.png);
 }
 @keyframes bg-slide {
   0% {
     background: url(../images/home/groceries.png);
   }
   50% {
-    background: url(../images/home/bg1.jpg);
+    background: url(../images/home/carbage-grocery.jpg);
   }
-  /* 100% {
-    background: url(../images/home/groceries.png);
-  } */
+  75% {
+    background: url(../images/home/pepper-groceries.jpg);
+  }
+  100% {
+    background: url(../images/home/pepper-groceries.jpg);
+  }
 }
 #business .hero-text a {
   background: #13ac77 0% 0% no-repeat padding-box;
