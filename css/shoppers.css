@@ -90,14 +90,12 @@ nav ul li a.download-btn {
     width: 58px;
     height: 58px;
 }
-/* header {
-  height: 120vh;
-} */
 /* Home Page CSS Ends */
 
 
 
 /* Shoppers Page CSS starts */
+
 .part-time-job{
     background: rgba(244, 244, 244, 0.6);
     font-size: 20px;
@@ -186,7 +184,11 @@ footer {
 }
 /* Footer CSS Ends */
 
-
+@media (min-width: 576px) {
+    #shopper-intro {
+        width: 96%;
+    }
+}
 @media (max-width: 1000px) {
     .frequently-asked-questions > div {
         padding-left: 50px !important;
