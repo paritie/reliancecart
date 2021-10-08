@@ -41,6 +41,9 @@ header{
   min-height: 90px;
   padding: 17px 60px !important;
 }
+.navbar-brand {
+    width: 60px;
+}
 nav ul li a {
   position: relative;
   font-size: 18px !important;
@@ -80,15 +83,6 @@ nav ul li a.download-btn {
   font-size: 14px !important;
   font-weight:  200 !important;
   opacity: 1 !important;
-}
-.logo img{
-    width: 58px ;
-    height: 58px;
-    margin-right: 20px;
-}
-.logo img{
-    width: 58px;
-    height: 58px;
 }
 /* Home Page CSS Ends */
 
@@ -207,9 +201,6 @@ footer {
         height: auto;
     }
 
-    .part-time-job > div:first-child{
-        /* order: 2; */
-    }
     .frequently-asked-questions h5{
         font-size: 17px !important; 
     }
