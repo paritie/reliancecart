@@ -101,24 +101,17 @@ nav ul li a.download-btn {
 #hero {
   height: 87vh !important;
   width: 100%;
-  backface-visibility: hidden;
-  animation: bgslide 8s linear infinite 0s;
-  animation-timing-function: step-end;
-  background: url(../images/home/groceries.png);
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
 }
-@keyframes bgslide {
-  0% {
-    background: url(../images/home/groceries.png);
-  }
-  25% {
-    background: url(../images/home/carbage-grocery.jpg);
-  }
-  50% {
-    background: url(../images/home/pepper-groceries.jpg);
-  }
-  100% {
-    background: url(../images/home/pepper-groceries.jpg);
-  }
+.hero-slider {
+  z-index: -1 !important;
+  /* height: 87vh; */
+  overflow: hidden;
+}
+#hero img {
+ height: 100% !important;
 }
 .hero-text {
   box-shadow: 0px 31px 99px #0000001a;
