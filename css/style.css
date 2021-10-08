@@ -418,7 +418,7 @@ textarea::placeholder {
   height: 100vh !important;
   backface-visibility: hidden;
   animation: bg-slide 8s linear infinite 0s;
-  animation-timing-function: step-end;
+  animation-timing-function: ease-in-out;
   background: url(../images/home/groceries.png);
 }
 @keyframes bg-slide {
