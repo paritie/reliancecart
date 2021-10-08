@@ -178,6 +178,7 @@ a.start-shopping:hover {
 }
 #health-concious .custom-card:hover {
   background: #13AC77;
+  /* color: #fff; */
   /* border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   padding-bottom: 20px !important; */
@@ -382,29 +383,17 @@ textarea::placeholder {
 .slider {
     position: relative;
   -webkit-appearance: none;
+  -moz-appearance: progressbar;
   width: 100%;
-  height: 10px;
+  height: 20px;
   border-radius: 5px;
-  background: #d3d3d3;
   outline: none;
   opacity: 1;
   -webkit-transition: .2s;
   transition: opacity .2s;
-  background: transparent;
-}
-
-.slider::before {
-  content: '';
-  display: block;
   background: url(../images/home/timeline.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  position: absolute;
-  width: 100%;
-  height: 30px;
-  z-index: -1;
-  top: 50%;
-  transform: translatey(-50%);
 }
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -414,17 +403,19 @@ textarea::placeholder {
   border: 0;
   background: url(../images/home/angle-bracket.png);
   background-repeat: no-repeat;
+  background-position: 20% 40%;
   cursor: pointer;
 }
 
-/* .slider::-moz-range-thumb {
-  width: 703px;
-  height: 100px;
+.slider::-moz-range-thumb {
+  width: 100px;
+  height: 125px;
   border: 0;
-  background: url('angle-bracket.png');
+  background: url(../images/home/angle-bracket.png);
   background-repeat: no-repeat;
+  background-position: 20% 40%;
   cursor: pointer;
-} */
+}
 /* Shoppers Page CSS starts */
 
 /* Shoppers Page CSS End */
