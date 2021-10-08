@@ -441,6 +441,7 @@ textarea::placeholder {
   color: #fff;
   font-size: 12px;
   letter-spacing: 0.41px;
+  z-index: 1;
 }
 /* Business Page CSS Ends */
 
