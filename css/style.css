@@ -171,10 +171,6 @@ a.start-shopping:hover {
 }
 #health-concious .custom-card:hover {
   background: #13AC77;
-  /* color: #fff; */
-  /* border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  padding-bottom: 20px !important; */
 }
 #health-concious .custom-card:hover .hover-btn a  {
   display: inline-block;
@@ -189,17 +185,7 @@ a.start-shopping:hover {
   height: 70px !important;
   margin-bottom: 10px;
 }
-.full-circle {
-  left: 25%;
-}
-.half-circle {
-  margin-left: -150px;
-}
-.mobile-phone {
-  width: 18%;
-  top: 10%;
-  margin-left: -32%;
-}
+
 .apple-playstore {
   background: #13ac77;
   border-radius: 12px;
@@ -455,7 +441,7 @@ textarea::placeholder {
 footer.home {
   backface-visibility: #fff;
   box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.08);
-  width: 100%;
+  width: 100%; 
 }
 .footer-nav-items span a {
   color: #000000 !important;
@@ -476,6 +462,20 @@ footer.home {
   }
   #user-registeration textarea {
     height: 131px !important;
+  }
+}
+@media (min-width: 576px) {
+  .full-circle {
+    left: 25%;
+    position: absolute;
+  }
+  .half-circle {
+    margin-left: -150px;
+  }
+  .mobile-phone {
+    width: 18%;
+    top: 10%;
+    margin-left: -32%;
   }
 }
 @media (max-width: 1430px) {
@@ -534,19 +534,49 @@ footer.home {
     font-size: 14px !important;
   }
 }
+@media (max-width: 768px) {
+  .full-circle {
+    width: 30%;
+    top: 0;
+    left: 50%;
+    position: absolute;
+  }
+  .half-circle {
+    margin-left: 0px;
+    width: 500%;
+    overflow-x: hidden !important;
+  }
+  .mobile-phone {
+    position: absolute;
+    width: 40%;
+    top: 10%;
+    margin-left: -70%;
+  }
+ .shop{
+    padding: 10px 0;
+    text-align: center !important;
+  }
+  #shop-for-groceries .shop > span:first-child {
+    font-size: 24px !important;
+    font-weight: bold;
+  }
+}
 @media (max-width: 576px) {
   .top {
     padding: 10px !important;
   }
   .custom-mb-5 {
-    margin-bottom: 0rem;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
   .fs-52 {
     font-size: 20px;
   }
   #hero {
     height: 85vh !important;
+  }
+  .hero-text {
+    top: 70%;
+    border-radius: 12px;
   }
   .hero-features span {
     font-size: 10px !important;
@@ -588,6 +618,17 @@ footer.home {
  .navbar-light .navbar-brand {
     width: 20% !important;
 }
+#health-concious .custom-card {
+  padding: 5px;
+}
+#health-concious .custom-card h5 {
+  font-weight: bold;
+}
+#health-concious .first-custom-card {
+  display: inline-block;
+}
+
+
 } 
 @media (max-width: 375px) {
   #business .hero-text {
