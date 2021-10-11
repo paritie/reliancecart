@@ -593,27 +593,23 @@ footer.home {
   .fs-52 {
     font-size: 20px;
   }
-  #hero {
-    height: 85vh !important;
-  }
-  .hero-text {
-    top: 70%;
-    border-radius: 12px;
-  }
-  /* .top {
-    padding: 0 !important;
-    background: #13ac77 !important;
-  } */
+ 
   .navbar-collapse {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 40px 0 0 0 !important;
+    margin: 20px 0 0 0 !important;
     width: 100vw !important;
     background: #13ac77 !important;
     text-align: center;
   }
-  nav ul li a {
+  #navbarSupportedContent > ul.navbar-nav.mx-auto.mb-2.mb-lg-0 > li {
+    background: #310739;
+    margin: 12px 25px;
+    border-radius: 12px;
+    opacity: 20%;
+  }
+  nav ul li > a {
     margin: 12px 0 !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     color: #fff !important;
     opacity: 1 !important;
   }
@@ -627,6 +623,13 @@ footer.home {
   }
   #become-a-shopper span:first-child {
     text-align: center;
+  }
+  #hero {
+    height: 85vh !important;
+  }
+  .hero-text {
+    top: 70%;
+    border-radius: 12px;
   }
   #user-registeration .holla {
     font-size: 24px;
