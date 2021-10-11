@@ -628,15 +628,16 @@ footer.home {
   display: inline-block;
 }
 
-
 } 
 @media (max-width: 375px) {
   #business .hero-text {
     margin-bottom: 6rem;
   }
- .logo{
-    display: none;
-}
+.apple-playstore span,
+  .start-shopping {
+    color: #13ac77;
+  }
+  
 }
 @media (max-width: 320px) {
   .delivery-circle {
@@ -647,6 +648,9 @@ footer.home {
   }
   .apple-playstore span,
   .start-shopping {
+    font-size: 8px;
+  }
+  .first-btn {
     font-size: 8px;
   }
   #user-registeration .holla,
